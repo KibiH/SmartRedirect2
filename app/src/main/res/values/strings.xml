@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">SmartRedirect</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="call_by_default">Call number as dialed</string>
+    <string name="call_by_redirect">Redirect call as specified</string>
+    <string name="how_to_call">How should this call be made?</string>
+    <string name="intercept_checkbox">Intercept outgoing calls</string>
+    <string name="popup_checkbox">Show popup on interception</string>
+    <string name="replacement_label">Replace the \'+\' with this:</string>
+    <string name="ok">OK</string>
+    <string name="ignore_label">Ignore with this country code:</string>
+    <string name="pre_permission_title">Required Permission</string>
+    <string name="pre_permission_text">Smart Redirect needs you to give permission to make phone calls, so that it can redirect your calls for you</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_permission_title">No Permission</string>
+    <string name="no_permission_text">You have refused to give permission. The app will not work correctly until you run again and give permission</string>
+    <string name="yes_permission_title">Permission granted!</string>
+    <string name="yes_permission_text">Thank you! Enjoy using Smart Redirect!</string>
+
+</resources>

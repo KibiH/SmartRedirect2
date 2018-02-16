@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <CheckBox
+        android:id="@+id/checkBoxIntercept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="@string/intercept_checkbox" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBoxIntercept"
+        android:layout_margin="10dp"
+        android:text="@string/popup_checkbox" />
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/checkBoxPopup"
+        android:layout_margin="10dp"
+        android:text="@string/replacement_label" />
+
+    <EditText
+        android:id="@+id/editReplacement"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label1"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editReplacement"
+        android:layout_margin="10dp"
+        android:text="@string/ignore_label" />
+
+    <EditText
+        android:id="@+id/editIgnore"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label2"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editIgnore"
+        android:layout_marginTop="25dp"
+        android:text="@string/ok" />
+
+</RelativeLayout>
